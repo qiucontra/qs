@@ -1,0 +1,9 @@
+ImageConvert.exe battery3.bmp battery3
+ImageConvert.exe battery2.bmp battery2
+ImageConvert.exe battery1.bmp battery1
+ImageConvert.exe battery0.bmp battery0
+ImageConvert.exe signal4.bmp signal4
+ImageConvert.exe signal3.bmp signal3
+ImageConvert.exe signal2.bmp signal2
+ImageConvert.exe signal1.bmp signal1
+ImageConvert.exe signal0.bmp signal0

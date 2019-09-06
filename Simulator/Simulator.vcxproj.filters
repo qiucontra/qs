@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mmi">
+      <UniqueIdentifier>{d8d69171-0fbb-47e3-8ab6-81ea0b133dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wave">
+      <UniqueIdentifier>{9b4e5e14-924b-4b46-a214-5ac92fe8933e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="control">
+      <UniqueIdentifier>{3ab49998-a042-4b4f-b8e5-cbdb2e708fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="action">
+      <UniqueIdentifier>{cd9026f7-4fab-428e-bbcb-ea35e5cef108}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Simulator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulatorDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mmi\display.h">
+      <Filter>mmi</Filter>
+    </ClInclude>
+    <ClInclude Include="mmi\zimo.h">
+      <Filter>mmi</Filter>
+    </ClInclude>
+    <ClInclude Include="wave\wave.h">
+      <Filter>wave</Filter>
+    </ClInclude>
+    <ClInclude Include="RadioStation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="option.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="control\input.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\process.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\select.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\tooltip.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\optionbar.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\titlebar.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="action\call.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\selfcheck.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\waveload.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\wavesetting.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="control\waveselect.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\channel.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\paramset.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\paraminput.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="control\window.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="action\sock.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\protocol.h">
+      <Filter>action</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SimulatorDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mmi\display.cpp">
+      <Filter>mmi</Filter>
+    </ClCompile>
+    <ClCompile Include="mmi\zimo.cpp">
+      <Filter>mmi</Filter>
+    </ClCompile>
+    <ClCompile Include="wave\wave.cpp">
+      <Filter>wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RadioStation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="control\input.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\process.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\select.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\tooltip.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\optionbar.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\titlebar.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="action\call.cpp">
+      <Filter>action</Filter>
+    </ClCompile>
+    <ClCompile Include="action\selfcheck.cpp">
+      <Filter>action</Filter>
+    </ClCompile>
+    <ClCompile Include="action\waveload.cpp">
+      <Filter>action</Filter>
+    </ClCompile>
+    <ClCompile Include="action\wavesetting.cpp">
+      <Filter>action</Filter>
+    </ClCompile>
+    <ClCompile Include="control\waveselect.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\channel.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\paramset.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\paraminput.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="control\window.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="action\sock.cpp">
+      <Filter>action</Filter>
+    </ClCompile>
+    <ClCompile Include="action\protocol.cpp">
+      <Filter>action</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Simulator.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Simulator.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Simulator.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

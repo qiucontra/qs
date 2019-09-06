@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Simulator", "Simulator\Simulator.vcxproj", "{86BD239F-EF4B-4AF5-A430-E8367978754B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetConsole", "NetConsole\NetConsole.vcxproj", "{F4DB55CC-0EB0-4898-B4C6-4A664611368C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetServer", "NetServer\NetServer.vcxproj", "{BEF85637-40A6-4402-A102-1ACFB4023B66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86BD239F-EF4B-4AF5-A430-E8367978754B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{86BD239F-EF4B-4AF5-A430-E8367978754B}.Debug|Win32.Build.0 = Debug|Win32
+		{86BD239F-EF4B-4AF5-A430-E8367978754B}.Release|Win32.ActiveCfg = Release|Win32
+		{86BD239F-EF4B-4AF5-A430-E8367978754B}.Release|Win32.Build.0 = Release|Win32
+		{F4DB55CC-0EB0-4898-B4C6-4A664611368C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F4DB55CC-0EB0-4898-B4C6-4A664611368C}.Debug|Win32.Build.0 = Debug|Win32
+		{F4DB55CC-0EB0-4898-B4C6-4A664611368C}.Release|Win32.ActiveCfg = Release|Win32
+		{F4DB55CC-0EB0-4898-B4C6-4A664611368C}.Release|Win32.Build.0 = Release|Win32
+		{BEF85637-40A6-4402-A102-1ACFB4023B66}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BEF85637-40A6-4402-A102-1ACFB4023B66}.Debug|Win32.Build.0 = Debug|Win32
+		{BEF85637-40A6-4402-A102-1ACFB4023B66}.Release|Win32.ActiveCfg = Release|Win32
+		{BEF85637-40A6-4402-A102-1ACFB4023B66}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
